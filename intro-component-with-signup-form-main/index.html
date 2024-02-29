@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="main-content">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="claim-form">
+        <h2><span> Try it free 7 days</span> then $20/mo. thereafter</h2>
+        <form action="#" class="form">
+          <input
+            id="first-name"
+            type="text"
+            placeholder="First Name"
+            required
+          />
+          <p class="hidden message">First Name cannot be empty</p>
+          <input id="last-name" type="text" placeholder="Last Name" required />
+          <p class="hidden message">Last Name cannot be empty</p>
+          <input id="email" type="email" placeholder="Email Address" required />
+          <p class="hidden message">Looks like this is not an email</p>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <p class="hidden message">Password cannot be empty</p>
+          <button type="submit" id="submit">Claim your free trial</button>
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#"> Terms and Services.</a>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
